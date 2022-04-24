@@ -1,5 +1,3 @@
-# Créé par Alex, le 23/04/2022 en Python 3.7
-
 import sys
 #Permet de creer tout les ensemble de recette disponible
 from itertools import combinations
@@ -9,7 +7,7 @@ def ecrire(resultat):
     nomFichier = str(sys.argv[1])
 
     #Nom du fichier solution
-    nomFichier = "Solution_"+nomFichier
+    nomFichier = "Solution_enumeration_"+nomFichier
     file = open(nomFichier, "w")
 
     #empeche le retour a la ligne
