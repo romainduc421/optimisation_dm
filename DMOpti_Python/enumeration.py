@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import sys
 #Permet de creer tout les ensemble de recette disponible
 from itertools import combinations

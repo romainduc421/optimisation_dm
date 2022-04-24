@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from pydoc import cli
 import sys
 from random import randint, random
